@@ -201,7 +201,7 @@ class Calculator extends React.Component {
         }
 
         else {
-            this.setState({calcBox: "FAIL"})
+            this.setState({calcBox: "Error"})
             console.log("fail")
         }
         console.log(this.state)
@@ -267,17 +267,6 @@ class Calculator extends React.Component {
         )
     }
 }
-
-/* class ClassButton extends React.Component {
-    render() {
-        return (
-            <div>
-                <input> </input>
-            </div>
-        )
-    }
-} */
-
 
 
 export default Calculator;
