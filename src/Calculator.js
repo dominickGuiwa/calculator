@@ -166,7 +166,7 @@ class Calculator extends React.Component {
         this.setState({afterValue1: ""})
         this.setState({ansValue: this.state.calcBox})
     }
-
+           
     buttonSolve() {
         if (this.state.op ==="add" && this.state.ansValue !== "") {
             this.setState({calcBox: parseInt(this.state.ansValue) + parseInt(this.state.value1)})
